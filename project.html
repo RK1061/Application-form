@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPSC Coaching Inquiry Form</title>
+    
+</head>
+<body style="background-color: #62a8e4;">
+    
+<body>
+    <center>
+    <h1>UPSC Coaching Inquiry Form</h1>
+        
+        
+        <form>
+            <table>
+                <tr>
+                    <td>Full Name:</td>
+                    <td><input type="text" name="fullname" placeholder="Enter your full name" required></td>
+                </tr>
+                <tr>
+                    <td>Father's Name:</td>
+                    <td><input type="text" name="fathername" placeholder="Enter your father's name" required></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date" name="dob" required></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="male" required> Male
+                        <input type="radio" name="gender" value="female"> Female
+                        <input type="radio" name="gender" value="other"> Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>Highest Qualification:</td>
+                    <td>
+                        <select name="qualification" required>
+                            <option value="">--Select--</option>
+                            <option value="B.Tech">B.Tech</option>
+                            <option value="M.Tech">M.Tech</option>
+                            <option value="B.A">B.A</option>
+                            <option value="M.A">M.A</option>
+                            <option value="B.Sc">B.Sc</option>
+                            <option value="B.Com">B.Com</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="address" rows="3" placeholder="Enter your address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Graduation Year:</td>
+                    <td><input type="number" name="graduation_year" min="2015" max="2029"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" placeholder="Enter your email" required></td>
+                </tr>
+                <tr>
+                    <td>Contact Number:</td>
+                    <td><input type="tel" name="contact_number" placeholder="Enter your contact number" pattern="[0-9]{10}" required></td>
+                </tr>
+                <tr>
+                    <td>Optional Subject:</td>
+                    <td>
+                        <select name="optional_subject" required>
+                            <option value="">--Select--</option>
+                            <option value="History">History</option>
+                            <option value="Maths">Maths</option>
+                            <option value="Anthropology">Anthropology</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Geography">Geography</option>
+                            <option value="Political Science">Political Science</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Preferred Course:</td>
+                    <td>
+                        <select name="course" required>
+                            <option value="">--Select--</option>
+                            <option value="Foundation">Foundation Course</option>
+                            <option value="Advanced">Advanced Course</option>
+                            <option value="General Studies">General Studies</option>
+                            <option value="Essay">Essay</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Caste:</td>
+                    <td>
+                        <select name="caste" required>
+                            <option value="">--Select--</option>
+                            <option value="General">General</option>
+                            <option value="SC">SC</option>
+                            <option value="ST">ST</option>
+                            <option value="OBC">OBC</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total Attempts:</td>
+                    <td><input type="number" name="attempts" min="1" max="8"></td>
+                </tr>
+                <tr>
+                    <td>Preferred Location:</td>
+                    <td>
+                        <select name="location" required>
+                            <option value="">--Select--</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Bangalore">Bangalore</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Preferred Mode of Communication:</td>
+                    <td>
+                        <input type="radio" name="communication" value="email" required> Email
+                        <input type="radio" name="communication" value="phone"> Phone
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </center>
+    </div>
+</body>
+</html>
